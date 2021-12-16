@@ -18,15 +18,49 @@
 </head>
 <body class="bg-dark">
     <nav></nav>
-    <div class="main container-fluid">
+    <div class="main text-white">
+        
+        <div class="p-5 row">
+            <h1 class="text-center">Hi! Thanks For Checking Out My Website, Unfortunately It's Not Yet Completed.</h1>
+        </div>
 
-        <div class="bg-5 p-3">
-            <img class="rounded-circle mx-auto d-block m-3" src="https://avatars.githubusercontent.com/u/60962448?s=400&u=8b0476341d2b922f2228a6381676da6cb1bc866d&v=4" alt="">
-            <h1>Hi! Welcome to my website, I am Ruben.</h1>
+        <div class="p-5">
+            <div class="row">
+                <h1 class="col-sm-3 col-auto text-end">WHOAMI</h1>
+                <p class="col-sm-9 col-auto">
+                    
+                    <br>
+                    <br>
+                    </p>    
+            </div>
+        </div>
+        <div class=" p-5 row bg-2 text-dark">
+            <h1 class="col-sm-3 col-auto text-end">My Projects</h1>
+            <p class="col-sm-9 col-auto">Some of my projects include</p>
+            <div id="projects" class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4">
+            </div>
+        </div>
+        <div class="p-5">
+            <h1>Contact Me</h1>
+            <div>
+                <form class="m-auto" style="width: fit-content;" action="https://formspree.io/f/xgedeppw" method="POST">
+                    <label class="form-label mb-3 w-100">
+                        Your email: 
+                        <input class="form-control mt-3 "  type="email" name="_replyto">
+                    </label>
+                    <label class="form-label mb-3 w-100">
+                        Your message:
+                        <textarea class="form-control mt-3 "  name="message"></textarea>
+                    </label>
+                    <!-- your other form fields go here -->
+                    <button class="w-100 btn btn-success" type="submit">Send</button>
+                </form>
+            </div>
+
         </div>
 
     </div>
     <footer></footer>
 </body>
-
+<script src="projects.js"></script>
 </html>
