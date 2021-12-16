@@ -20,6 +20,7 @@ readTextFile("projects.json", function(text){
             src="${obj[i].screen_short}"
             class="card-img-top"
             alt="Skyscrapers"
+            style="object-fit: cover; height:200px;"
             />
             <div class="card-body">
             <h5 class="card-title">${obj[i].project_name}</h5>

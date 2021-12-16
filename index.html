@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,58 +10,60 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
-    
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    
+
 </head>
 <body class="bg-dark">
     <nav></nav>
+    
     <div class="main text-white">
-        
-        <div class="p-5 row">
+
+        <div class="p-5 full-screen bg-black">
             <h1 class="text-center">Hi! Thanks For Checking Out My Website, Unfortunately It's Not Yet Completed.</h1>
         </div>
 
         <div class="p-5">
             <div class="row">
-                <h1 class="col-sm-3 col-auto text-end">WHOAMI</h1>
-                <p class="col-sm-9 col-auto">
-                    
-                    <br>
-                    <br>
-                    </p>    
+                <h1 class=" col-sm-3 col-auto text-end h-100 m-auto">WHOAMI</h1>
+                <div class="col-sm-9 col-auto">
+                    <img class="rounded-circle p-5" width="350px" src="https://avatars.githubusercontent.com/u/60962448?v=4" alt="">
+                    <h3>Hi, I’m Matt. Nice to meet you.</h3>
+                    <p>
+                        Since beginning my journey as a freelance designer nearly 10 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.
+                    </p>
+                </div>
             </div>
         </div>
-        <div class=" p-5 row bg-2 text-dark">
-            <h1 class="col-sm-3 col-auto text-end">My Projects</h1>
-            <p class="col-sm-9 col-auto">Some of my projects include</p>
-            <div id="projects" class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4">
-            </div>
-        </div>
-        <div class="p-5">
-            <h1>Contact Me</h1>
-            <div>
-                <form class="m-auto" style="width: fit-content;" action="https://formspree.io/f/xgedeppw" method="POST">
-                    <label class="form-label mb-3 w-100">
-                        Your email: 
-                        <input class="form-control mt-3 "  type="email" name="_replyto">
-                    </label>
-                    <label class="form-label mb-3 w-100">
-                        Your message:
-                        <textarea class="form-control mt-3 "  name="message"></textarea>
-                    </label>
-                    <!-- your other form fields go here -->
-                    <button class="w-100 btn btn-success" type="submit">Send</button>
-                </form>
-            </div>
 
+        <div class=" p-5 bg-2 text-dark">
+            <h1 class="text-center">My Projects</h1>
+            <p class="text-center">Some of my projects include</p>
+            <div id="projects" class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4"></div>
+        </div>
+
+        <div class="p-5 w-100 row" h style="height: 500px;">
+            <h1 class="text-center">Contact Me</h1>
+            <form class="m-auto" style="width: fit-content;" action="https://formspree.io/f/xgedeppw" method="POST">
+                <label class="form-label mb-3 w-100">
+                    Your email: 
+                    <input class="form-control mt-3 "  type="email" name="_replyto">
+                </label>
+                <label class="form-label mb-3 w-100">
+                    Your message:
+                    <textarea class="form-control mt-3 h-100"  name="message"></textarea>
+                </label>
+                <!-- your other form fields go here -->
+                <button class="w-100 btn btn-success" type="submit">Send</button>
+            </form>
         </div>
 
     </div>
     <footer></footer>
 </body>
 <script src="projects.js"></script>
+
 </html>
