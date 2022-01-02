@@ -13,6 +13,22 @@ readTextFile("projects.json", function(text){
     var obj = JSON.parse(text);
     
     for(let i = 0; i < obj.length; i++){
+        console.log(obj[i].live_URL);
+        if (obj[i].live_URL == "#"){            
+            var live_URL = `<div class="pr-1 w-50"><a href="" class="w-100 disabled btn btn-secondary">Unavalable</a></div>`
+        }
+        else{
+            var live_URL = `<div class="pr-1 w-50"><a href="${obj[i].live_URL}" class="w-100 btn btn-success">Live</a></div>`
+        }
+
+        if (obj[i].source_code == "#"){            
+            var source_code = `<div class="pr-1 w-50"><a href="" class="w-100 disabled btn btn-secondary">Unavalable</a></div>`
+        }
+        else{
+            var source_code = `<div class="pr-1 w-50"><a href="${obj[i].source_code}" class="w-100 col-auto btn btn-primary">Github</a></div>`
+        }
+
+
         projects.innerHTML += `
         <div class="col">
         <div class="card">
@@ -30,8 +46,8 @@ readTextFile("projects.json", function(text){
             text-overflow: ellipsis;">${obj[i].summery}
             </p>
             <div class="row">
-                <div class="pr-1 w-50"><a href="${obj[i].live_URL}" class="w-100 btn btn-success">Live</a></div>
-                <div class="pr-1 w-50"><a href="${obj[i].source_code}" class="w-100 col-auto btn btn-primary">Github</a></div>
+            ${live_URL}
+            ${source_code}
             </div>
             </div>
         </div>
