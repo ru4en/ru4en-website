@@ -8,6 +8,10 @@
     --6: #FFD396;
   }
 
+  html {
+      display: none;
+  }
+
 .main {
     min-height: calc(100vh - 2.5em);  
 }
@@ -35,4 +39,15 @@
 
 .bg-3 {
     background-color: rgba(29, 29, 29, 0.911);
+}
+
+.icon {
+    max-width: 300px;
+    margin: auto;
+    transition-duration: .3s;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+    transition-duration: .3s;
 }
