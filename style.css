@@ -8,10 +8,6 @@
     --6: #FFD396;
   }
 
-  html {
-      display: none;
-  }
-
 .main {
     min-height: calc(100vh - 2.5em);  
 }
