@@ -1,11 +1,11 @@
 [
     {
-        "project_name" : "Simple Math Quiz" ,
-        "screen_short" : "" ,
+        "project_name" : "interactive Periodic Table" ,
+        "screen_short" : "https://github.com/ru4en/interactive-periodic-table/blob/main/ipt.png?raw=true" ,
         "summery" : "" ,
-        "language_framework_used": ["Python3"],
-        "live_URL" : "#" ,
-        "source_code" : "https://github.com/ru4en/SimpleMathQuiz"
+        "language_framework_used": ["JavaScript", "CSS"],
+        "live_URL" : "https://ru4en.github.io/interactive-periodic-table/" ,
+        "source_code" : "https://github.com/ru4en/interactive-periodic-table"
     },
     {
         "project_name" : "Bird Hunting Game" ,
@@ -16,28 +16,28 @@
         "source_code" : "https://github.com/ru4en/BirdHuntingGame"
     },
     {
-        "project_name" : "QNote" ,
-        "screen_short" : "https://github.com/ru4en/qnote/raw/7aaccbd8173f4df7b78aea9eec860ceedd0124bf/list-example.png" ,
+        "project_name" : "d4 Software Website (Case Study)" ,
+        "screen_short" : "https://raw.githubusercontent.com/ru4en/d4-software/e840e32f235af45086473308ec9a8be0720c29dd/display.png" ,
         "summery" : "" ,
-        "language_framework_used": ["Python3"],
-        "live_URL" : "#" ,
-        "source_code" : "https://github.com/ru4en/qnote"
+        "language_framework_used": ["HTML"],
+        "live_URL" : "https://ru4en.github.io/d4-software/" ,
+        "source_code" : "https://github.com/ru4en/d4-software"
     },
-    {
-        "project_name" : "interactive Periodic Table" ,
-        "screen_short" : "https://github.com/ru4en/interactive-periodic-table/blob/main/ipt.png?raw=true" ,
-        "summery" : "" ,
-        "language_framework_used": ["JavaScript", "CSS"],
-        "live_URL" : "https://ru4en.github.io/interactive-periodic-table/" ,
-        "source_code" : "https://github.com/ru4en/interactive-periodic-table"
-    },
-    {
+        {
         "project_name" : "FatCat" ,
         "screen_short" : "https://github.com/ru4en/fatcat/blob/main/example.png?raw=true" ,
         "summery" : "" ,
         "language_framework_used": ["C"],
         "live_URL" : "#" ,
         "source_code" : "https://github.com/ru4en/fatcat"
+    },
+    {
+        "project_name" : "QNote" ,
+        "screen_short" : "https://github.com/ru4en/qnote/raw/7aaccbd8173f4df7b78aea9eec860ceedd0124bf/list-example.png" ,
+        "summery" : "" ,
+        "language_framework_used": ["Python3"],
+        "live_URL" : "#" ,
+        "source_code" : "https://github.com/ru4en/qnote"
     },
     {
         "project_name" : "momentum" ,
@@ -56,11 +56,11 @@
         "source_code" : "https://github.com/ru4en/encrypt-decrypt"
     },
     {
-        "project_name" : "d4 Software Website (Case Study)" ,
+        "project_name" : "Simple Math Quiz" ,
         "screen_short" : "" ,
         "summery" : "" ,
-        "language_framework_used": ["HTML"],
-        "live_URL" : "https://ru4en.github.io/d4-software/" ,
-        "source_code" : "https://github.com/ru4en/d4-software"
+        "language_framework_used": ["Python3"],
+        "live_URL" : "#" ,
+        "source_code" : "https://github.com/ru4en/SimpleMathQuiz"
     }
 ]

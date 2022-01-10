@@ -89,3 +89,8 @@
 .max-width{
     margin: auto;
 }
+
+
+.progress {
+    height: 40px; 
+}
