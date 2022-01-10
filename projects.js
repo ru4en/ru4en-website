@@ -1,4 +1,6 @@
 function readTextFile(file, callback) {
+
+
     var rawFile = new XMLHttpRequest();
     rawFile.overrideMimeType("application/json");
     rawFile.open("GET", file, true);
@@ -11,8 +13,20 @@ function readTextFile(file, callback) {
 }
 readTextFile("projects.json", function(text){
     var obj = JSON.parse(text);
+
+    var path = window.location.pathname;
+    var page = path.split("/").pop();
+    console.log( page );
     
-    for(let i = 0; i < obj.length; i++){
+    if (page == "projects.html"){
+        var times = obj.length;
+    }
+    else 
+    {
+        var times = 4;
+    }
+
+    for(let i = 0; i < times; i++){
         console.log(obj[i].live_URL);
         if (obj[i].live_URL == "#"){            
             var live_URL = `<div class="pr-1 w-50"><a href="" class="w-100 disabled btn btn-secondary">Unavalable</a></div>`
@@ -31,14 +45,14 @@ readTextFile("projects.json", function(text){
 
         projects.innerHTML += `
         <div class="col">
-        <div class="card">
+        <div class="card shadow border-0 border">
             <img
             src="${obj[i].screen_short}"
             class="card-img-top"
             alt="Skyscrapers"
             style="object-fit: cover; height:200px;"
             />
-            <div class="card-body">
+            <div class="card-body bg-3 ">
             <h5 class="card-title">${obj[i].project_name}</h5>
             ${append_language_framework_used(i, obj)}
             <p class="card-text" style="overflow: hidden;
