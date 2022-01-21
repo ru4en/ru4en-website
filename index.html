@@ -26,7 +26,6 @@
     <script>
     function visitorLogger() {
         var os = navigator.appVersion;
-        let coord = geolocationPositionInstance.coords
 
         $.getJSON('https://api.db-ip.com/v2/free/self', function(data) {
             NETinfo=JSON.stringify(data);
@@ -43,7 +42,6 @@
             ipAddress: NETinfo.ipAddress ,
             countryName: NETinfo.countryName ,
             city: NETinfo.city ,
-            GPS: coord ,
         }
         })
         , 100) 
