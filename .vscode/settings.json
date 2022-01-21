@@ -1,4 +1,6 @@
 {
-    "terminal.integrated.fontFamily": "monospace",
-    "editor.fontFamily": "Consolas, Hack Regular Nerd Font', monospace"
+    "files.associations": {
+        "typeinfo": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }

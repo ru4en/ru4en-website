@@ -125,16 +125,29 @@
     }
 }
 
-
-.landing {
-    b
-	animation: bg-pan-right 8s both;
+.console {
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
-@keyframes bg-pan-right {
+
+.blinker {
+    animation: blink 1s infinite;
+    display: inline-block;
+    width: 2px;
+    height: 42px;
+    margin-left: 8px;
+}
+
+@keyframes blink {
     0% {
-        background-position: 0% 50%;
+        background-color: transparent;
     }
+
+    75% {
+        background-color: white;
+    }
+
     100% {
-        background-position: 100% 50%;
+        background-color: transparent;
     }
 }
