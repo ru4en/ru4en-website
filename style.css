@@ -94,3 +94,47 @@
 .progress {
     height: 40px; 
 }
+
+.glow-live{
+    border-radius: 30px !important;
+    border: .15rem solid #00ff55 !important;
+    color: #00ff55 !important;
+}
+
+.glow-git{
+    border-radius: 30px !important;
+    border: .15rem solid #ffd000 !important;
+    color: #ffd000 !important;
+}
+.glow-live:hover{
+    background-color: #f2fff3 !important;
+    color: #00ac1d !important;
+}
+
+.glow-git:hover{
+    background-color: #fffde7 !important;
+    color: #ff9100 !important;
+}
+
+@keyframes animate1{
+    0%{
+        left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+
+
+.landing {
+    b
+	animation: bg-pan-right 8s both;
+}
+@keyframes bg-pan-right {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}

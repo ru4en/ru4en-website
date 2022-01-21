@@ -32,14 +32,14 @@ readTextFile("projects.json", function(text){
             var live_URL = `<div class="pr-1 w-50"><a href="" class="w-100 disabled btn btn-secondary">Unavalable</a></div>`
         }
         else{
-            var live_URL = `<div class="pr-1 w-50"><a href="${obj[i].live_URL}" class="w-100 btn btn-success">Live</a></div>`
+            var live_URL = `<div class="pr-1 w-50"><a href="${obj[i].live_URL}" class="w-100 btn glow-live">Live</a></div>`
         }
 
         if (obj[i].source_code == "#"){            
             var source_code = `<div class="pr-1 w-50"><a href="" class="w-100 disabled btn btn-secondary">Unavalable</a></div>`
         }
         else{
-            var source_code = `<div class="pr-1 w-50"><a href="${obj[i].source_code}" class="w-100 col-auto btn btn-primary">Github</a></div>`
+            var source_code = `<div class="pr-1 w-50"><a href="${obj[i].source_code}" class="w-100 col-auto btn glow-git">Github</a></div>`
         }
 
 
