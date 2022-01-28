@@ -17,14 +17,6 @@
     border: 5px solid #FFFF00;
 }
 
-.full-screen {
-    width: 100%;
-    height: 100vh;  
-    max-height: fit-content;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-}
 
 .bg-nav {
     background: #1d1d1de8;
@@ -127,19 +119,6 @@
     }
 }
 
-.console {
-    text-overflow: ellipsis;
-    overflow: hidden;
-}
-
-.blinker {
-    animation: blink 1s infinite;
-    display: inline-block;
-    width: 2px;
-    height: 42px;
-    margin-left: 8px;
-}
-
 span{
     animation: blinker 1s linear infinite;
   }
@@ -152,10 +131,14 @@ span{
 /* Particles */
 /* ---- reset ---- */ 
 
+.full-screen {
+    position: relative;
+    max-height: 100%;
+    align-items: center;
+}
 #particles-js{ 
-    position:absolute;
+    position: absolute;
     width: 100%;
-    height: 100%;
     background-color: #0e0e0e;
     background-image: url(""); 
     background-repeat: no-repeat; 
@@ -164,10 +147,17 @@ span{
 } 
 
 .intro-card {
-    top: 50px;
-    transition-duration: 1s;
-    transition: all .5s linear;
-    height: calc(100% + 20px);
-    max-height: 300rem;
-    width: 95vh;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    max-width: 40rem;
+    left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+    z-index: 100;
+}
+
+#particles-js {
+    top: 0;
+    height: 100vh;
 }
