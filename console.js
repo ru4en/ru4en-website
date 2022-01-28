@@ -1,7 +1,7 @@
 
 
 var commandline = document.getElementById("console");
-var stringout = "Hello, I am Ruben!";
+var stringout = "Hello! Welcome to my Website";
 var i = 0;
 
 function typing() {
