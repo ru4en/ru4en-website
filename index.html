@@ -15,9 +15,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
-    <!-- particles.js container --> <div id="particles-js"></div> <!-- stats - count particles --> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
-    <script src="particles.js"></script>
     
+
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js">
+    </script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js">
+    </script>
+    <script src="particles.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-W78PT32TK9"></script>
@@ -41,9 +45,10 @@
     <nav></nav>
     
     <div class="main text-white">
-
-        <div class="p-5 full-screen">
-            <h2 id="console" class="text-center console"></h2><h2 class="blinker"></h2>
+        
+        <div class="full-screen">
+            <div class="position-absolute" id="particles-js"><script src="particles.js"></script></div>
+            <h2 id="console" class="text-center console p-5 z-index-1"></h2><h2 class="blinker"></h2>
         </div>
         
         <div class="p-5 bg-hl2">
