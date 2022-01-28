@@ -23,37 +23,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.25.0/axios.js"></script>     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
     </script>
-    <script>
-    function visitorLogger() {
-        var os = navigator.appVersion;
-
-        $.getJSON('https://api.db-ip.com/v2/free/self', function(data) {
-            NETinfo=JSON.stringify(data);
-            NETinfo=JSON.parse(NETinfo);
-        });
-
-        setTimeout(() =>
-        $.ajax({
-        url: "https://formspree.io/f/mknyopzp",
-        method: "POST",
-        dataType: "json",
-        data: {
-            os: os,
-            ipAddress: NETinfo.ipAddress ,
-            countryName: NETinfo.countryName ,
-            city: NETinfo.city ,
-        }
-        })
-        , 100) 
-        
-    }
-        </script>
-
 </head>
-<body class="bg-dark" onload="visitorLogger()"></body>
+<body class="bg-dark"></body>
     <nav></nav>
     
-    <div class="main text-white">
+    <div class="main text-white particles-js">
+        <div id=""></div>
 
         <div class="p-5 full-screen bg-1">
             <h2 id="console" class="text-center console"></h2><h2 class="blinker"></h2>
