@@ -1,15 +1,14 @@
 
 
 var commandline = document.getElementById("console");
-var stringout = "Hello! Welcome to my Website";
+var stringout = "Hello! My name is Ruben. It's nice to meet you.";
 var i = 0;
 
 function typing() {
     if (i < (stringout.length)) {
         commandline.innerHTML += stringout[i];
-        console.log("ds");
         i++;
-        setTimeout(typing, Math.floor(Math.random() * 700));
+        setTimeout(typing, Math.floor(Math.random() * 500));
     }
 }
 
