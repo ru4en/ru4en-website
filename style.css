@@ -6,7 +6,11 @@
     --4: #694C2F;
     --5: #D88447;
     --6: #FFD396;
-  }
+}
+
+a {
+    color: hotpink;
+}
 
 .main {
     min-height: calc(100vh - 2.5em);  
@@ -26,7 +30,7 @@
 
 .bg-1 {
     background: rgb(0,0,0);
-    background: linear-gradient(14deg, rgba(0,0,0,1) 0%, rgba(59,59,59,1) 100%); 
+    background: linear-gradient(0deg, rgb(77, 77, 77) 0%, rgb(56, 56, 56) 5%, rgba(29, 29, 29, 0) 90%); 
 }
 
 .bg-2 {
@@ -145,7 +149,7 @@ span{
 
 .intro-card {
     max-width: 40rem;
-    margin: 250px auto;
+    margin: 5rem auto;
 }
 
 #particles-js {
@@ -153,4 +157,8 @@ span{
     top: 0;
     z-index: -1;
     height: 100%;
+}
+
+.console {
+    height: 100px;
 }
