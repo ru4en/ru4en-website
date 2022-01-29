@@ -132,12 +132,9 @@ span{
 /* ---- reset ---- */ 
 
 .full-screen {
-    position: relative;
-    max-height: 100%;
     align-items: center;
 }
 #particles-js{ 
-    position: absolute;
     width: 100%;
     background-color: #0e0e0e;
     background-image: url(""); 
@@ -147,17 +144,13 @@ span{
 } 
 
 .intro-card {
-    margin-top: 10rem;
-    margin-bottom: 10rem;
     max-width: 40rem;
-    left: 0; 
-  right: 0; 
-  margin-left: auto; 
-  margin-right: auto; 
-    z-index: 100;
+    margin: 250px auto;
 }
 
 #particles-js {
+    position: fixed;
     top: 0;
-    height: 100vh;
+    z-index: -1;
+    height: 100%;
 }

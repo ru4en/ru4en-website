@@ -29,17 +29,17 @@ readTextFile("projects.json", function(text){
     for(let i = 0; i < times; i++){
         console.log(obj[i].live_URL);
         if (obj[i].live_URL == "#"){            
-            var live_URL = `<div class="pr-1 w-50"><a href="" class="w-100 disabled btn btn-secondary">Unavalable</a></div>`
+            var live_URL = `<div class="pr-1 w-50"><a href="" class="w-100 disabled btn btn-secondary">Unavailable</a></div>`
         }
         else{
-            var live_URL = `<div class="pr-1 w-50"><a href="${obj[i].live_URL}" class="w-100 btn glow-live">Live</a></div>`
+            var live_URL = `<div class="pr-1 w-50"><a href="${obj[i].live_URL}" class="w-100 btn btn-success">Live</a></div>`
         }
 
         if (obj[i].source_code == "#"){            
-            var source_code = `<div class="pr-1 w-50"><a href="" class="w-100 disabled btn btn-secondary">Unavalable</a></div>`
+            var source_code = `<div class="pr-1 w-50"><a href="" class="w-100 disabled btn btn-secondary">Unavailable</a></div>`
         }
         else{
-            var source_code = `<div class="pr-1 w-50"><a href="${obj[i].source_code}" class="w-100 col-auto btn glow-git">Github</a></div>`
+            var source_code = `<div class="pr-1 w-50"><a href="${obj[i].source_code}" class="w-100 col-auto btn btn-success">Github</a></div>`
         }
 
 
@@ -53,7 +53,7 @@ readTextFile("projects.json", function(text){
             style="object-fit: cover; height:200px;"
             />
             <div class="card-body bg-3 ">
-            <h5 class="card-title">${obj[i].project_name}</h5>
+            <h5 class="card-title text-nowrap">${obj[i].project_name}</h5>
             ${append_language_framework_used(i, obj)}
             <p class="card-text" style="overflow: hidden;
             height: 150px;
