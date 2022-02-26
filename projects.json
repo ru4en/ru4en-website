@@ -16,7 +16,7 @@
         "source_code" : "https://github.com/ru4en/BirdHuntingGame"
     },
     {
-        "project_name" : "d4 Software Website (Case Study)" ,
+        "project_name" : "D4 Software Website" ,
         "screen_short" : "https://raw.githubusercontent.com/ru4en/d4-software/e840e32f235af45086473308ec9a8be0720c29dd/display.png" ,
         "summery" : "" ,
         "language_framework_used": ["HTML"],
@@ -62,5 +62,13 @@
         "language_framework_used": ["Python3"],
         "live_URL" : "#" ,
         "source_code" : "https://github.com/ru4en/SimpleMathQuiz"
+    },
+    {
+        "project_name" : "Hot Beans" ,
+        "screen_short" : "https://github.com/ru4en/hot-beans/blob/main/images/ss.png" ,
+        "summery" : "" ,
+        "language_framework_used": ["HTML", "CSS", "JavaScript"],
+        "live_URL" : "https://ru4en.github.io/hot-beans/" ,
+        "source_code" : "https://github.com/ru4en/hot-beans"
     }
 ]
