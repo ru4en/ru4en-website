@@ -32,6 +32,14 @@
         "source_code" : "https://github.com/ru4en/fatcat"
     },
     {
+        "project_name" : "Hot Beans" ,
+        "screen_short" : "https://raw.githubusercontent.com/ru4en/hot-beans/main/images/ss.png" ,
+        "summery" : "" ,
+        "language_framework_used": ["HTML", "CSS", "JavaScript"],
+        "live_URL" : "https://ru4en.github.io/hot-beans/" ,
+        "source_code" : "https://github.com/ru4en/hot-beans"
+    },
+    {
         "project_name" : "QNote" ,
         "screen_short" : "https://github.com/ru4en/qnote/raw/7aaccbd8173f4df7b78aea9eec860ceedd0124bf/list-example.png" ,
         "summery" : "" ,
@@ -41,7 +49,7 @@
     },
     {
         "project_name" : "momentum" ,
-        "screen_short" : "" ,
+        "screen_short" : "https://raw.githubusercontent.com/ru4en/momentum/main/ss.png" ,
         "summery" : "" ,
         "language_framework_used": ["Python3", "HTML", "CSS", "JavaScript"],
         "live_URL" : "https://momuntum.herokuapp.com" ,
@@ -62,13 +70,5 @@
         "language_framework_used": ["Python3"],
         "live_URL" : "#" ,
         "source_code" : "https://github.com/ru4en/SimpleMathQuiz"
-    },
-    {
-        "project_name" : "Hot Beans" ,
-        "screen_short" : "https://github.com/ru4en/hot-beans/blob/main/images/ss.png" ,
-        "summery" : "" ,
-        "language_framework_used": ["HTML", "CSS", "JavaScript"],
-        "live_URL" : "https://ru4en.github.io/hot-beans/" ,
-        "source_code" : "https://github.com/ru4en/hot-beans"
     }
 ]
