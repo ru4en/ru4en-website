@@ -45,14 +45,13 @@ readTextFile("projects.json", function(text){
 
         projects.innerHTML += `
         <div class="col">
-        <div class="card curvy shadow border-0">
+        <div class="curvy shadow border-0">
             <img
             src="${obj[i].screen_short}"
             class="card-img-top"
-            alt="Skyscrapers"
-            style="object-fit: cover; height:200px;"
-            />
-            <div class="card-body bg-3 ">
+            onerror="if (this.src != 'placeholder_image.png') this.src = 'placeholder_image.png';"
+            style="object-fit: cover; height:200px;"/>
+            <div class="card-body blur">
             <h5 class="card-title text-nowrap">${obj[i].project_name}</h5>
             ${append_language_framework_used(i, obj)}
             <p class="card-text" style="overflow: hidden;
