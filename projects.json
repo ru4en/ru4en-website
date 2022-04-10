@@ -4,7 +4,7 @@
         "screen_short" : "https://github.com/ru4en/interactive-periodic-table/blob/main/ipt.png?raw=true" ,
         "summery" : "" ,
         "language_framework_used": ["JavaScript", "CSS"],
-        "live_URL" : "https://ru4en.github.io/interactive-periodic-table/" ,
+        "live_URL" : "https://interactive-periodic-table.ru4en.tech" ,
         "source_code" : "https://github.com/ru4en/interactive-periodic-table"
     },
     {
@@ -12,7 +12,7 @@
         "screen_short" : "https://github.com/ru4en/BirdHuntingGame/blob/main/img/bird-game-ss.png?raw=true" ,
         "summery" : "" ,
         "language_framework_used": ["HTML", "JavaScript"],
-        "live_URL" : "https://ru4en.github.io/BirdHuntingGame/" ,
+        "live_URL" : "https://bird-hunting-game.ru4en.tech" ,
         "source_code" : "https://github.com/ru4en/BirdHuntingGame"
     },
     {
@@ -20,7 +20,7 @@
         "screen_short" : "https://raw.githubusercontent.com/ru4en/d4-software/e840e32f235af45086473308ec9a8be0720c29dd/display.png" ,
         "summery" : "" ,
         "language_framework_used": ["HTML"],
-        "live_URL" : "https://ru4en.github.io/d4-software/" ,
+        "live_URL" : "https://d4-software.ru4en.tech/" ,
         "source_code" : "https://github.com/ru4en/d4-software"
     },
         {
@@ -36,7 +36,7 @@
         "screen_short" : "https://raw.githubusercontent.com/ru4en/hot-beans/main/images/ss.png" ,
         "summery" : "" ,
         "language_framework_used": ["HTML", "CSS", "JavaScript"],
-        "live_URL" : "https://ru4en.github.io/hot-beans/" ,
+        "live_URL" : "https://hot-beans.ru4en.tech/" ,
         "source_code" : "https://github.com/ru4en/hot-beans"
     },
     {
