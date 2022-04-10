@@ -80,9 +80,6 @@ a {
     transform: scale(1.1);
     transition-duration: .3s;
 }
-.rounded-css {
-    border-radius: 200px; 
-}
 
 .max-width{
     margin: auto;
@@ -154,6 +151,21 @@ a {
     z-index: -1;
     height: 100%;
 }
+
+.curvy {
+    border-radius: 11pt !important;
+}
+
+.curvy img {
+    border-top-left-radius: 10pt !important;
+    border-top-right-radius: 10pt !important;
+}
+
+.curvy .card-body {
+    border-bottom-left-radius: 10pt !important;
+    border-bottom-right-radius: 10pt !important;
+}
+
 
 .console {
     height: 75pt;
