@@ -122,12 +122,8 @@ a {
         left: 100%;
     }
 }
-
-span{
-    animation: blinker 1s linear infinite;
-  }
   
-  @keyframes blinker{
+@keyframes blinker{
     50%{
       opacity: 0;
     }
@@ -160,5 +156,5 @@ span{
 }
 
 .console {
-    height: 100px;
+    height: 75pt;
 }
