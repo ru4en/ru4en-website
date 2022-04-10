@@ -56,7 +56,7 @@ readTextFile("projects.json", function(text){
             <h5 class="card-title text-nowrap">${obj[i].project_name}</h5>
             ${append_language_framework_used(i, obj)}
             <p class="card-text" style="overflow: hidden;
-            height: 150px;
+            height: 20px;
             text-overflow: ellipsis;">${obj[i].summery}
             </p>
             <div class="row">
