@@ -49,8 +49,6 @@ readTextFile("projects.json", function(text){
             <img
             src="${obj[i].screen_short}"
             class="card-img-top"
-            onerror="if (this.src != 'placeholder_image.png') this.src = 'placeholder_image.png';"
-            style="object-fit: cover; height:200px;"/>
             <div class="card-body blur">
             <h5 class="card-title text-nowrap">${obj[i].project_name}</h5>
             ${append_language_framework_used(i, obj)}
