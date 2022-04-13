@@ -22,5 +22,9 @@ function contFormSubmited(contForm) {
         msg: msg
     }
     )
+
+    name = "";
+    email = "";
+    msg = "";
     notification("Sucessful: Thanks "+ name +"! I will make sure to respond you.", "btn-success");
 }
