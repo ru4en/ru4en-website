@@ -8,6 +8,10 @@
     --6: #FFD396;
 }
 
+body * {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
 a {
     color: hotpink;
 }
@@ -168,6 +172,7 @@ a {
 
 
 .console {
+    font-size: 20pt;
     height: 75pt;
 }
 

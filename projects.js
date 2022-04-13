@@ -54,9 +54,13 @@ readTextFile("projects.json", function(text){
             <div class="card-body blur">
             <h5 class="card-title text-nowrap">${obj[i].project_name}</h5>
             ${append_language_framework_used(i, obj)}
-            <p class="card-text" style="overflow: hidden;
-            height: 25pt;
-            text-overflow: ellipsis;">${obj[i].summery}
+            <p class="card-text text-muted" style="
+            display: -webkit-box;
+            height: 4.5em;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            ">${obj[i].summery}
             </p>
             <div class="row">
             ${live_URL}

@@ -2,7 +2,7 @@
     {
         "project_name" : "interactive Periodic Table" ,
         "screen_short" : "https://github.com/ru4en/interactive-periodic-table/blob/main/ipt.png?raw=true" ,
-        "summery" : "" ,
+        "summery" : "This Project was created when I was studding my GCSEs so i decided to design a simple periodic table using the basic HTML and CSS knowledge i had at the time." ,
         "language_framework_used": ["JavaScript", "CSS"],
         "live_URL" : "https://interactive-periodic-table.ru4en.tech" ,
         "source_code" : "https://github.com/ru4en/interactive-periodic-table"
@@ -10,7 +10,7 @@
     {
         "project_name" : "Bird Hunting Game" ,
         "screen_short" : "https://github.com/ru4en/BirdHuntingGame/blob/main/img/bird-game-ss.png?raw=true" ,
-        "summery" : "" ,
+        "summery" : "Bird Hunting Game spun out of the game development module I did during my BTEC course." ,
         "language_framework_used": ["HTML", "JavaScript"],
         "live_URL" : "https://bird-hunting-game.ru4en.tech" ,
         "source_code" : "https://github.com/ru4en/BirdHuntingGame"
@@ -18,7 +18,7 @@
     {
         "project_name" : "D4 Software Website" ,
         "screen_short" : "https://raw.githubusercontent.com/ru4en/d4-software/e840e32f235af45086473308ec9a8be0720c29dd/display.png" ,
-        "summery" : "" ,
+        "summery" : "D4 Software Website was a landing page i designs for my student enterprise group project to advertise a translation program and device." ,
         "language_framework_used": ["HTML"],
         "live_URL" : "https://d4-software.ru4en.tech/" ,
         "source_code" : "https://github.com/ru4en/d4-software"
@@ -26,7 +26,7 @@
         {
         "project_name" : "FatCat" ,
         "screen_short" : "https://github.com/ru4en/fatcat/blob/main/example.png?raw=true" ,
-        "summery" : "" ,
+        "summery" : "Fat Cat is a cat clone from the GNU software suit. It was a byproduct of my learning process during the time I was learning C" ,
         "language_framework_used": ["C"],
         "live_URL" : "#" ,
         "source_code" : "https://github.com/ru4en/fatcat"
