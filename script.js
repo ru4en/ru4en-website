@@ -1,4 +1,4 @@
-$(function(){
+$(document).ready(function() {
     $('nav').load('nav-bar.html');
     $('footer').load('footer.html');
 });
@@ -27,7 +27,7 @@ function contFormSubmited(contForm) {
     }
     )
 
-    notification("Sucessful: Thanks "+ name.value +"! I will make sure to respond you.", "btn-success");
+    notification("Successful: Thanks "+ name.value +"! I will make sure to respond you.", "btn-success");
     name.value = null;
     email.value = null;
     msg.value = null;
