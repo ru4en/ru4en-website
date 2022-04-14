@@ -1,20 +1,20 @@
 
-:root {
-    --1: #8AA683;
-    --2: #406345;
-    --3: #323E42;
-    --4: #694C2F;
-    --5: #D88447;
-    --6: #FFD396;
-}
-
 body * {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-a {
-    color: hotpink;
+a:link  {
+    color: rgba(0,173,90,1);
+    text-decoration: none;
 }
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: rgb(0, 123, 255);
+  }
 
 .main {
     min-height: calc(100vh - 2.5em);  
