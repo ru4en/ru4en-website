@@ -3,17 +3,19 @@ body * {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-a:link  {
-    color: rgba(0,173,90,1);
+p a:link  {
+    color: rgb(0, 255, 132);
     text-decoration: none;
+    transition-duration: .3s;
 }
 
-a:visited {
+p a:visited {
     color: green;
 }
 
-a:hover {
-    color: rgb(0, 123, 255);
+p a:hover {
+    color: rgb(0, 170, 255);
+    transition-duration: .3s;
   }
 
 .main {
