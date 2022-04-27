@@ -9,6 +9,13 @@ function notification(msg, btncl) {
     main.appendChild(contfb);
 }
 
+window.onload = function() {
+    Particles.init({
+      selector: '.background'
+    });
+};
+
+
 function contFormSubmited(contForm) { 
 
     let name = document.getElementById('name');

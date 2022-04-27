@@ -3,6 +3,19 @@ body * {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position:  absolute;
+    display:  block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+} 
+
 p a:link  {
     color: rgb(0, 255, 132);
     text-decoration: none;
