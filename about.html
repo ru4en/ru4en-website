@@ -25,8 +25,8 @@
 <body class="bg-dark">
     <nav></nav>
 
-    <div class="main container">
-    <div class="text-white  row pt-5 mt-5 ">
+    <div class="container">
+    <div class="text-white row p-5 mt-5">
         <div class="col-12 col-md-4 d-flex">
             <img class="rounded-circle p-5 w-100 m-auto align-self-center icon" src="https://avatars.githubusercontent.com/u/60962448?v=4" alt="">
         </div>
@@ -52,13 +52,13 @@
     </div>
     </div>
     
-    <div class=" p-5 bg-2 text-light">
+    <div class="row p-5 bg-2 text-light">
             <h2 class="text-center">Eudcation </h2>
             <div class="pt-5 row">
                 <div class="col-12 col-md-5 d-flex">
                     <img class="icon-lnk p-5" src="https://lawnmanor.org/wp-content/uploads/2017/08/Lawn-Manor-Logo-01.png" alt="">
                 </div>
-                    <div class="col">
+                    <div class="col-md-5">
                     <h3>Lawn Mannor Accademy Swindon</h3>
                     <p class="fw-lighter">(2015-2017)</p>
                     <p>Lawn Manor Academy was the secondary School I went to. Here I studied for my GCSEs in English, Maths, Physis, Chemistry, Biology, Geology, Computing and PE. Besides doing GCSEs I also gained a ECDL in digital and IT user skills certificate.</p>
@@ -68,7 +68,7 @@
                 <div class="col-12 col-md-5 d-flex">
                     <img class="icon-lnk p-5" src="https://www.newcollege.ac.uk/images/logo.png" alt="">
                 </div>
-                    <div class="col">
+                    <div class="col-md-5">
                     <h3>New College Swindon</h3>
                     <p class="fw-lighter">(2017-2021)</p>
                     <p>I Studied BTEC in Computing During my Time in New College. This Course consisted of 13 modules of which were: </p>
@@ -166,86 +166,142 @@
                 <div class="col-12 col-md-5 d-flex">
                     <img class="icon-lnk p-5"  src="http://www.reading.ac.uk/web/multimediafiles/legacy-uor-home.png" alt="">
                 </div>
-                <div class="col">
+                <div class="col-md-5">
                     <h3>University of Reading</h3>
                     <p class="fw-lighter">(2021-Current)</p>
                     <p>I currently study BSc in Computer Science at the university of Reading. Modules included: Applications of Computer Science, Fundamentals of Computer Science, Programming in C/C++, Software Engineering, Mathematics and Computation and Student Enterprise.</p>
+                    <div id="rdg-mod" class="collapse p-2">
+                      <table class="table text-light">
+                          <thead>
+                            <tr>
+                              <th scope="col">Module</th>
+                              <th scope="col">Module Name</th>
+                              <th scope="col">Grade</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Applications of Computer Science</td>
+                              <td>54%</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Fundamentals of Computer Science</td>
+                              <td>63%</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Programming in C/C++</td>
+                              <td>78%</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Software Engineering</td>
+                              <td>82%</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Mathematics and Computation</td>
+                              <td>82%</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Student Enterprise</td>
+                              <td>48%</td>
+                            </tr>
+                          </tbody>
+                      </table>
+                      <p>.</p>
+                  </div>
+                  <button class="btn btn-outline-info" type="button" data-bs-toggle="collapse" data-bs-target="#rdg-mod" aria-expanded="false">Read more</button>
                 </div>
             </div>
         </div>
-        <div class="p-5 bg-hl1">
+
+        <div class="pt-5 text-light">
+          <h2 class="text-center">Experience</h2>
+
+          <div class="p-5 row">
+                        <div class="col-12 col-md-5 d-flex">
+              <img class="icon-lnk p-5" src="https://www.ukri.org/wp-content/uploads/2022/03/ukri-stfc-square-logo.png" alt="">
+          </div>
+              <div class="col-md-5">
+              <h3>UKIR - Science And Technology Facilities Council (ISIS)</h3>
+              <h5 class="text-muted">Computational Scentest Summer Placement</h5>
+              <p class="fw-lighter">(Summer 2022)</p>
+              <p> During the Summer of 2022 I worked at the Ruthoford Appelton Labority on a scientific Analysis Software called SasView. </p>
+          </div>
+          </div>
+
+
+        </div>
+
+        <div class="pt-5 bg-hl1">
             <h2 class="text-center">Skills</h2>
-            <div class="max-width col-12  col-sm-11 col-md-8 col-lg-7 col-xl-5">
-            <div class="card m-3 p-3">
+          <div class="m-auto row p-3 w-100">
+
+            <div class="col-0 pt-4 col-sm-6 col-md-3">
+              <div class="card p-3">
                 <h3>Python</h3>
-            <p>Python was the first programming language, and I learned a lot of fundamental computer science concepts using it. A few of the projects I have worked on using python are Momentum, which utilised the Django framework for the backend. Quote a simple CLI notetaking app and a Math Quiz. I have also used python to build web scraping make use of the Beautiful Soup 4 framework, game development using Pygame and used it in embedded systems applying circuit python.</p>
-            <div class="progress">
-                <div class="progress-bar bg-hl2" role="progressbar" style="width: 70%"></div>
-              </div>
-            </div>
-            <div class="card m-3 p-3">
-                <h3>HTML/CSS</h3>
-              <p>something About HTML and CSS</p>
-              <div class="progress">
+                <div class="progress">
                   <div class="progress-bar bg-hl2" role="progressbar" style="width: 75%"></div>
                 </div>
-            </div>
-            <div class="card m-3 p-3">
-              <h3>JavaScript</h3>
-              <p>something About JavaScript</p>
-              <div class="progress">
-                  <div class="progress-bar bg-hl2" role="progressbar" style="width: 40%"></div>
               </div>
             </div>
-            <div class="card m-3 p-3">
-              <h3>Scripting (Bash)</h3>
-              <p>something About Scripting</p>
-              <div class="progress">
+
+            <div class="col-0 pt-4 col-sm-6 col-md-3">
+              <div class="card p-3">
+                <h3>C / C++</h3>
+                <div class="progress">
+                  <div class="progress-bar bg-hl2" role="progressbar" style="width: 50%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-0 pt-4 col-sm-6 col-md-3">
+              <div class="card p-3">
+                <h3>JavaScript</h3>
+                <div class="progress">
                   <div class="progress-bar bg-hl2" role="progressbar" style="width: 60%"></div>
+                </div>
               </div>
             </div>
-            <div class="card m-3 p-3">
-              <h3>SQL</h3>
-              <p>something About Python</p>
-              <div class="progress">
-                  <div class="progress-bar bg-hl2" role="progressbar" style="width: 40%"></div>
+
+            <div class="col-0 pt-4 col-sm-6 col-md-3">
+              <div class="card p-3">
+                <h3>HTML & CSS</h3>
+                <div class="progress">
+                  <div class="progress-bar bg-hl2" role="progressbar" style="width: 80%"></div>
+                </div>
               </div>
             </div>
-            <div class="card m-3 p-3">
-              <h3>C/C++</h3>
-              <p>something About Python</p>
-              <div class="progress">
-                  <div class="progress-bar bg-hl2" role="progressbar" style="width: 30%"></div>
+
+            <div class="col-0 pt-4 col-sm-6 col-md-3">
+              <div class="card p-3">
+                <h3>SDLC and Git</h3>
+                <div class="progress">
+                  <div class="progress-bar bg-hl2" role="progressbar" style="width: 75%"></div>
+                </div>
               </div>
             </div>
-            <div class="card m-3 p-3">
-              <h3>GNU/Linux</h3>
-              <p>something About Python</p>
-              <div class="progress">
-                  <div class="progress-bar bg-hl2" role="progressbar" style="width: 65%"></div>
+
+            <div class="col-0 pt-4 col-sm-6 col-md-3">
+              <div class="card p-3">
+                <h3>GNU/Linux</h3>
+                <div class="progress">
+                  <div class="progress-bar bg-hl2" role="progressbar" style="width: 70%"></div>
+                </div>
               </div>
             </div>
-            <div class="card m-3 p-3">
-              <h3>Virtualization and containerization</h3>
-              <p>something About Python</p>
-              <div class="progress">
-                  <div class="progress-bar bg-hl2" role="progressbar" style="width: 55%"></div>
-              </div>
-            </div>
-            <div class="card m-3 p-3">
-              <h3>Git</h3>
-              <p>something About Python</p>
-              <div class="progress">
-                  <div class="progress-bar bg-hl2" role="progressbar" style="width: 65%"></div>
-              </div>
-              </div>
-            </div>
+
           </div>
-          <div class="bg-3 text-light text-center p-5">
-              <h4>About this Website</h4>
-              <p>This website was built by me mainly using <b>HTML5, Bootstrap5, and JavaScript</b>. However, <b>CSS</b> was also used for some of the styling. The site is static and hosted on <b>GitHub pages</b>. And so are some of the projects that are available to be viewed live. For the particle effect on the index pages background <b>particle.js</b> module was used with a tiny bit of customizations. Most of the stuff is sourced/based on <b>CDN</b> to minimise the files I had to use in my repo. The contact me form uses <b>FormSpree</b> and is linked to my emails however I might change this in the future. No user data is stored besides if a message is sent via the “Contact Me” form. </p>
-              <p>Also The source code for this entire website is visible on <a href="https://github.com/ru4en/ru4en.github.io">GitHub</a>.</p>
-          </div>
+        </div>
+        <div class="bg-3 text-light text-center p-5">
+            <h4>About this Website</h4>
+            <p>This website was built by me mainly using <b>HTML5, Bootstrap5, and JavaScript</b>. However, <b>CSS</b> was also used for some of the styling. The site is static and hosted on <b>GitHub pages</b>. And so are some of the projects that are available to be viewed live. For the particle effect on the index pages background <b>particle.js</b> module was used with a tiny bit of customizations. Most of the stuff is sourced/based on <b>CDN</b> to minimise the files I had to use in my repo. The contact me form uses <b>FormSpree</b> and is linked to my emails however I might change this in the future. No user data is stored besides if a message is sent via the “Contact Me” form. </p>
+            <p>Also The source code for this entire website is visible on <a href="https://github.com/ru4en/ru4en.github.io">GitHub</a>.</p>
+        </div>
     <footer></footer>
 </body>
 
