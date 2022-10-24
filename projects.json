@@ -70,5 +70,29 @@
         "language_framework_used": ["Python3"],
         "live_URL" : "#" ,
         "source_code" : "https://github.com/ru4en/SimpleMathQuiz"
+    },
+    {
+        "project_name" : "Project Management Tool (Coursework)" ,
+        "screen_short" : "" ,
+        "summery" : "" ,
+        "language_framework_used": ["Bash","C","HTML","Python3"],
+        "live_URL" : "#" ,
+        "source_code" : "https://github.com/ru4en/cs1pc20_project_man_tool"
+    },
+    {
+        "project_name" : "Card Sorting Algorithms (Coursework)" ,
+        "screen_short" : "" ,
+        "summery" : "" ,
+        "language_framework_used": ["C++"],
+        "live_URL" : "#" ,
+        "source_code" : "https://github.com/ru4en/cs1fc16_card_sorting_algo"
+    },
+    {
+        "project_name" : "Space Shooting Game (Coursework)" ,
+        "screen_short" : "" ,
+        "summery" : "" ,
+        "language_framework_used": ["C"],
+        "live_URL" : "#" ,
+        "source_code" : "https://github.com/ru4en/cs1pc20_space_game"
     }
 ]
