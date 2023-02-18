@@ -69,7 +69,7 @@ p a:hover {
 
 .bg-hl1{
     background-color: #08AEEA;
-    background-image: linear-gradient(0deg, #003e55 0%, #2AF598 100%);
+    background-image: linear-gradient(0deg, #00b755 0%, #00a669 70%);
 }    
 
 .bg-hl2 {
@@ -162,6 +162,7 @@ p a:hover {
 .intro-card {
     max-width: 40rem;
     margin: 5rem auto;
+    border-radius: 2rem !important; 
 }
 
 #particles-js {
